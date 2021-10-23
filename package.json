@@ -1,0 +1,23 @@
+{
+  "name": "djs-ts",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "start": "ts-node index.ts",
+    "pm2": "ts-node -T -P ./tsconfig.json ./index.ts"
+  },
+  "author": "pais",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.3.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "discord.js": "^13.2.0",
+    "wokcommands": "^1.5.3"
+  }
+}
