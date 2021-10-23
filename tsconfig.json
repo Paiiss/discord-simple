@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "removeComments": true,
+        "moduleResolution": "Node",
+        "target": "ES2017",
+        "baseUrl": "./",
+        "outDir": "./build",
+        "paths": {
+        }
+    }
+}
